@@ -1,0 +1,180 @@
+2010-09-26 04:25:31 LOG_DEBUG: [192.168.1.100:468.0ed4eff3 POST /sn/main/login?PHPSESSID=m3v0cluc4m10be6kmo1u9bu5n0] action.php - User error '400' on 'login': 已登录。
+2010-09-26 08:56:25 LOG_DEBUG: [192.168.1.100:4775.3b86dffe GET /sn/main/] action.php - User error '404' on 'showstream': 没有这个用户。
+2010-09-28 03:01:19 LOG_DEBUG: [192.168.1.100:314.a0de5c74 GET /sn/irviny/upload] action.php - User error '403' on 'upload': Only user can upload portfolios.
+2010-09-29 11:20:07 LOG_DEBUG: [192.168.1.100:8821.14fd930e GET /sn/a] action.php - User error '404' on 'showstream': 没有这个用户。
+2010-09-29 11:20:12 LOG_ERR: [192.168.1.100:8821.c4ad89fe GET /sn/a%EF%BC%8F] Problem getting route for a／ - A path was found but is invalid.
+2010-09-29 11:20:15 LOG_DEBUG: [192.168.1.100:8821.9b50e0b6 GET /sn/a/] action.php - User error '404' on 'showstream': 没有这个用户。
+2010-10-11 04:02:06 LOG_DEBUG: [192.168.1.100:148.9fe802ac GET /sn/irviny/upload] action.php - User error '403' on 'upload': Only user can upload portfolios.
+2010-10-11 07:34:35 LOG_DEBUG: [192.168.1.100:922.417762a9 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:34:58 LOG_DEBUG: [192.168.1.100:5240.4f4a2c0b GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:34:59 LOG_DEBUG: [192.168.1.100:5240.40d51e33 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:35:00 LOG_DEBUG: [192.168.1.100:5240.dfc51c5b GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:35:01 LOG_DEBUG: [192.168.1.100:5240.5d194e86 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:04 LOG_DEBUG: [192.168.1.100:148.b24749c0 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:04 LOG_DEBUG: [192.168.1.100:148.09a2ebb3 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:05 LOG_DEBUG: [192.168.1.100:148.20aeb33a GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:05 LOG_DEBUG: [192.168.1.100:148.77f58836 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:05 LOG_DEBUG: [192.168.1.100:148.022243c7 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:06 LOG_DEBUG: [192.168.1.100:148.31d0600c GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:36:08 LOG_DEBUG: [192.168.1.100:148.c18ad46c GET /sn/portfolio/1] action.php - User error '404' on 'portfolio': 没有这个用户。
+2010-10-11 07:43:16 LOG_DEBUG: [192.168.1.100:922.773113d2 GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-11 07:43:17 LOG_DEBUG: [192.168.1.100:922.0981538a GET /sn/portfolio/123] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-11 07:43:20 LOG_DEBUG: [192.168.1.100:922.1c4fd9b5 GET /sn/portfolio/1] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-11 07:43:27 LOG_DEBUG: [192.168.1.100:505.a243ec80 GET /sn/portfolio/5] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-11 07:58:13 LOG_DEBUG: [192.168.1.100:922.c986e88f GET /sn/irviny/portfolio/123] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-11 08:05:50 LOG_DEBUG: [192.168.1.100:918.8321633a GET /sn/irviny/portfolio/123] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-11 10:38:02 LOG_ERR: [192.168.1.100:5240.01665f3b GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:02 LOG_ERR: [192.168.1.100:5240.01665f3b GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:05 LOG_ERR: [192.168.1.100:148.3e13fa00 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:05 LOG_ERR: [192.168.1.100:148.3e13fa00 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:05 LOG_ERR: [192.168.1.100:918.30a82b87 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:05 LOG_ERR: [192.168.1.100:918.30a82b87 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:505.7a770e4d GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:505.7a770e4d GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:5240.35b5b42c GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:5240.35b5b42c GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:148.851be46e GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:148.851be46e GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:922.829c346d GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:922.829c346d GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:918.a91862fa GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:918.a91862fa GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:505.8963eb83 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:06 LOG_ERR: [192.168.1.100:505.8963eb83 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:38:12 LOG_ERR: [192.168.1.100:5240.78146b77 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:38:12 LOG_ERR: [192.168.1.100:5240.78146b77 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:39:00 LOG_ERR: [192.168.1.100:148.c311175b GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:39:00 LOG_ERR: [192.168.1.100:148.c311175b GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:39:01 LOG_ERR: [192.168.1.100:922.9391ccf4 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:39:01 LOG_ERR: [192.168.1.100:922.9391ccf4 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:39:42 LOG_ERR: [192.168.1.100:505.4f805ad2 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:39:42 LOG_ERR: [192.168.1.100:505.4f805ad2 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:39:42 LOG_ERR: [192.168.1.100:5240.9a1a1a3f GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:39:42 LOG_ERR: [192.168.1.100:5240.9a1a1a3f GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:40:40 LOG_ERR: [192.168.1.100:918.a9c39afd GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:40:40 LOG_ERR: [192.168.1.100:918.a9c39afd GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:40 LOG_ERR: [192.168.1.100:148.9792ab49 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:40 LOG_ERR: [192.168.1.100:148.9792ab49 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:922.9d55703c GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:922.9d55703c GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:918.e9e25836 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:918.e9e25836 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:505.94b3f5db GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:505.94b3f5db GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:5240.dd5099e4 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:41 LOG_ERR: [192.168.1.100:5240.dd5099e4 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:42 LOG_ERR: [192.168.1.100:148.dc36a656 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:42 LOG_ERR: [192.168.1.100:148.dc36a656 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:42 LOG_ERR: [192.168.1.100:922.2eac8e60 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:42 LOG_ERR: [192.168.1.100:922.2eac8e60 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:43 LOG_ERR: [192.168.1.100:918.6d12a233 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:43 LOG_ERR: [192.168.1.100:918.6d12a233 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:43 LOG_ERR: [192.168.1.100:505.bbb0c9db GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:43 LOG_ERR: [192.168.1.100:505.bbb0c9db GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:43 LOG_ERR: [192.168.1.100:5240.750544de GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:43 LOG_ERR: [192.168.1.100:5240.750544de GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:42:49 LOG_ERR: [192.168.1.100:922.47c9bd47 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:42:49 LOG_ERR: [192.168.1.100:922.47c9bd47 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:44:32 LOG_ERR: [192.168.1.100:5240.30f5a311 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:44:32 LOG_ERR: [192.168.1.100:5240.30f5a311 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:44:33 LOG_ERR: [192.168.1.100:922.ce4f8f4e GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such table
+2010-10-11 10:44:33 LOG_ERR: [192.168.1.100:922.ce4f8f4e GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 10:48:17 LOG_ERR: [192.168.1.100:922.45768cd9 GET /sn/irviny/portfolio/20] ServerErrorAction: 400 [Image] DB_DataObject error []: DB Error: syntax error
+#0 /usr/local/PEAR/DB/DataObject.php(2545): Memcached_DataObject->raiseError(Object(DB_Error))
+#1 /Library/WebServer/Documents/sn/classes/Memcached_DataObject.php(338): DB_DataObject->_query('SELECT image.* ...')
+#2 /usr/local/PEAR/DB/DataObject.php(1703): Memcached_DataObject->_query('SELECT image.* ...')
+#3 /Library/WebServer/Documents/sn/classes/Portfolio.php(78): DB_DataObject->query('SELECT image.* ...')
+#4 /Library/WebServer/Documents/sn/actions/portfolio.php(63): Portfolio->getImageList(0, NULL, 0)
+#5 /Library/WebServer/Documents/sn/actions/portfolio.php(57): PortfolioAction->showPortfolioList()
+#6 /Library/WebServer/Documents/sn/lib/action.php(477): PortfolioAction->showContent()
+#7 /Library/WebServer/Documents/sn/lib/action.php(431): Action->showContentBlock()
+#8 /Library/WebServer/Documents/sn/lib/action.php(252): Action->showCore()
+#9 /Library/WebServer/Documents/sn/lib/action.php(83): Action->showBody()
+#10 /Library/WebServer/Documents/sn/actions/portfolio.php(35): Action->showPage()
+#11 /Library/WebServer/Documents/sn/index.php(287): PortfolioAction->handle(Array)
+#12 /Library/WebServer/Documents/sn/index.php(302): main()
+#13 {main}
+2010-10-11 14:15:58 LOG_ERR: [192.168.1.100:148.e57cc2e7 POST /sn/irviny/upload] PEAR error: DB Error: no such field
+2010-10-11 14:15:58 LOG_ERR: [192.168.1.100:148.e57cc2e7 POST /sn/irviny/upload] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 14:16:30 LOG_ERR: [192.168.1.100:918.f6727f29 POST /sn/irviny/upload] PEAR error: DB Error: no such field
+2010-10-11 14:16:30 LOG_ERR: [192.168.1.100:918.f6727f29 POST /sn/irviny/upload] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-11 14:19:29 LOG_ERR: [192.168.1.100:10524.53fdf22f POST /sn/irviny/upload] ServerErrorAction: 500 Lost our file.
+#0 /Library/WebServer/Documents/sn/actions/upload.php(187): ImageFile->resize(150, 0, 0, 0, 0, '2-150-201010111...', '/Library/WebSer...')
+#1 /Library/WebServer/Documents/sn/actions/upload.php(119): UploadAction->handleUpload()
+#2 /Library/WebServer/Documents/sn/actions/upload.php(39): UploadAction->handlePost()
+#3 /Library/WebServer/Documents/sn/index.php(287): UploadAction->handle(Array)
+#4 /Library/WebServer/Documents/sn/index.php(302): main()
+#5 {main}
+2010-10-11 16:09:57 LOG_ERR: [192.168.1.100:15359.a268b846 GET /sn/irviny/portfolio/20] PEAR error: DB Error: no such field
+2010-10-11 16:09:57 LOG_ERR: [192.168.1.100:15359.a268b846 GET /sn/irviny/portfolio/20] ServerErrorAction: 500 The database for MBtest isn't responding correctly, so the site won't work properly. The site admins probably know about the problem, but you can contact them at you@example.com to make sure. Otherwise, wait a few minutes and try again.
+2010-10-12 12:19:04 LOG_DEBUG: [192.168.1.100:310.a2a80f50 GET /sn/user/12] action.php - User error '400' on 'userbyid': 没有这个用户。
+2010-10-12 12:19:10 LOG_DEBUG: [192.168.1.100:3016.8d2100db GET /sn/2] action.php - User error '404' on 'showstream': 没有这个用户。
+2010-10-12 16:01:27 LOG_DEBUG: [192.168.1.100:3010.6ee45455 GET /sn/irviny/portfolio/20/image/17] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:30 LOG_DEBUG: [192.168.1.100:3010.b72448d7 GET /sn/irviny/portfolio/20/image/16] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:32 LOG_DEBUG: [192.168.1.100:3010.b1c0ef24 GET /sn/irviny/portfolio/20/image/15] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:34 LOG_DEBUG: [192.168.1.100:3010.fb72e596 GET /sn/irviny/portfolio/20/image/17] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:36 LOG_DEBUG: [192.168.1.100:3010.6f41bdd6 GET /sn/irviny/portfolio/20/image/13] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:38 LOG_DEBUG: [192.168.1.100:3010.1ccb9fd3 GET /sn/irviny/portfolio/20/image/14] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:39 LOG_DEBUG: [192.168.1.100:3010.2f1bfeeb GET /sn/irviny/portfolio/20/image/12] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:01:40 LOG_DEBUG: [192.168.1.100:3010.9190f817 GET /sn/irviny/portfolio/20/image/14] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:02:46 LOG_DEBUG: [192.168.1.100:3017.c93efbd7 GET /sn/irviny/portfolio/20/image/16] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:03:20 LOG_DEBUG: [192.168.1.100:3016.b974da87 GET /sn/irviny/portfolio/20/image/17] action.php - User error '404' on 'imageview': No such image.
+2010-10-12 16:03:22 LOG_DEBUG: [192.168.1.100:3016.037ee931 GET /sn/irviny/portfolio/20/image/17] action.php - User error '404' on 'imageview': No such image.
+2010-10-13 06:32:14 LOG_DEBUG: [192.168.1.100:1564.3ef34bf8 GET /sn/irviny/portfolio/1] action.php - User error '404' on 'portfolio': No such portfolio.
+2010-10-13 06:38:09 LOG_DEBUG: [192.168.1.100:149.bbf7e3cf GET /sn/all] action.php - User error '404' on 'showstream': 没有这个用户。
+2010-10-13 06:48:38 LOG_DEBUG: [192.168.1.100:1564.7eade040 GET /sn/all] action.php - User error '404' on 'showstream': 没有这个用户。
+2010-10-13 09:05:48 LOG_DEBUG: [192.168.1.100:1564.6c8a2527 GET /sn/main/login] action.php - User error '400' on 'login': 已登录。
+2010-10-13 11:48:54 LOG_DEBUG: [192.168.1.100:1568.aaadf033 GET /sn/irviny/upload] action.php - User error '403' on 'upload': Only user can upload portfolios.
+2010-10-13 11:48:57 LOG_DEBUG: [192.168.1.100:1568.a077cf66 GET /sn/irviny/upload] action.php - User error '403' on 'upload': Only user can upload portfolios.
+2010-10-13 17:46:53 LOG_DEBUG: [192.168.1.100:393.6fc0f9e8 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:50:09 LOG_DEBUG: [192.168.1.100:385.8618dc64 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:56:34 LOG_DEBUG: [192.168.1.100:392.67d54d0d GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:56:35 LOG_DEBUG: [192.168.1.100:392.b60b6bcf GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:56:45 LOG_DEBUG: [192.168.1.100:571.cd9f970a GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:58:45 LOG_DEBUG: [192.168.1.100:575.cff75994 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:58:46 LOG_DEBUG: [192.168.1.100:575.a51aa4d2 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 17:59:08 LOG_DEBUG: [192.168.1.100:393.43df351a GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:00:16 LOG_DEBUG: [192.168.1.100:137.4cd8a090 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:00:42 LOG_DEBUG: [192.168.1.100:392.ada864a8 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:01:02 LOG_DEBUG: [192.168.1.100:571.fa4d777a GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:01:18 LOG_DEBUG: [192.168.1.100:575.38e73f5a GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:01:31 LOG_DEBUG: [192.168.1.100:385.52e78098 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:04:59 LOG_DEBUG: [192.168.1.100:571.16fa22fd GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:06:34 LOG_DEBUG: [192.168.1.100:393.a67cd99b GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:07:20 LOG_DEBUG: [192.168.1.100:137.fd36e805 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:10:19 LOG_DEBUG: [192.168.1.100:385.bd31b018 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:18:10 LOG_DEBUG: [192.168.1.100:137.f6d6524b GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:18:11 LOG_DEBUG: [192.168.1.100:571.d9c0e226 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:26:01 LOG_DEBUG: [192.168.1.100:393.4c443083 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-13 18:31:35 LOG_DEBUG: [192.168.1.100:137.9db86da8 GET /sn/irviny/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-14 14:03:42 LOG_DEBUG: [192.168.1.100:380.9fd485fa POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel',fullname='himmel',profileurl='http://192.168.1.100/sn/himmel',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-09-22 23:02:08']
+2010-10-14 14:03:42 LOG_DEBUG: [192.168.1.100:380.9fd485fa POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel',fullname='himmel',profileurl='http://192.168.1.100/sn/himmel',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-09-22 23:02:08']
+2010-10-14 14:04:31 LOG_DEBUG: [192.168.1.100:378.aa8d0942 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel',fullname='himmel',profileurl='http://192.168.1.100/sn/himmel',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-09-22 23:02:08']
+2010-10-14 14:04:31 LOG_DEBUG: [192.168.1.100:378.aa8d0942 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel',fullname='卡缪',profileurl='http://192.168.1.100/sn/himmel',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-09-22 23:02:08']
+2010-10-14 14:16:44 LOG_DEBUG: [192.168.1.100:4585.7e3b6c4e POST /sn/settings/profile] profilesettings.php - Updating user nickname from himmel to himmel123
+2010-10-14 14:16:44 LOG_DEBUG: [192.168.1.100:4585.7e3b6c4e POST /sn/settings/profile] profilesettings.php - Updating user language from zh_CN to 
+2010-10-14 14:16:44 LOG_DEBUG: [192.168.1.100:4585.7e3b6c4e POST /sn/settings/profile] profilesettings.php - Updating user timezone from Pacific/Midway to 
+2010-10-14 14:16:44 LOG_DEBUG: [192.168.1.100:4585.7e3b6c4e POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel',fullname='卡缪',profileurl='http://192.168.1.100/sn/himmel',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:04:31']
+2010-10-14 14:16:44 LOG_DEBUG: [192.168.1.100:4585.7e3b6c4e POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/himmel123',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:04:31']
+2010-10-14 14:17:22 LOG_DEBUG: [192.168.1.100:378.985fcb2c GET /sn/himmel/userhome] action.php - User error '404' on 'userhome': 用户不存在
+2010-10-14 14:23:21 LOG_DEBUG: [192.168.1.100:4564.668b5a00 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/himmel123',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:16:44']
+2010-10-14 14:23:21 LOG_DEBUG: [192.168.1.100:4564.668b5a00 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:16:44']
+2010-10-14 14:24:18 LOG_DEBUG: [192.168.1.100:380.88dab5e6 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:23:21']
+2010-10-14 14:24:18 LOG_DEBUG: [192.168.1.100:380.88dab5e6 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:23:21']
+2010-10-14 14:24:32 LOG_DEBUG: [192.168.1.100:4585.b7157639 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:23:21']
+2010-10-14 14:24:32 LOG_DEBUG: [192.168.1.100:4585.b7157639 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:23:21']
+2010-10-14 14:24:51 LOG_DEBUG: [192.168.1.100:150.6fee3326 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='卡缪',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:32']
+2010-10-14 14:24:51 LOG_DEBUG: [192.168.1.100:150.6fee3326 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:32']
+2010-10-14 14:24:56 LOG_DEBUG: [192.168.1.100:4567.3cb470b9 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:51']
+2010-10-14 14:24:56 LOG_DEBUG: [192.168.1.100:4567.3cb470b9 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='吴大维的 啊大洼地啊大大',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:51']
+2010-10-14 14:25:04 LOG_DEBUG: [192.168.1.100:4567.92d5394f POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='吴大维的 啊大洼地啊大大',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:56']
+2010-10-14 14:25:04 LOG_DEBUG: [192.168.1.100:4567.92d5394f POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='吴大维的 啊大洼地啊大大',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:56']
+2010-10-14 14:35:00 LOG_DEBUG: [192.168.1.100:4563.a7cbd1b6 POST /sn/settings/profile] profilesettings.php - Old profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='吴大维的 啊大洼地啊大大',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:56']
+2010-10-14 14:35:00 LOG_DEBUG: [192.168.1.100:4563.a7cbd1b6 POST /sn/settings/profile] profilesettings.php - New profile: profile[id='1',nickname='himmel123',fullname='式波',profileurl='http://192.168.1.100/sn/',homepage='',bio='',location='',lat='',lon='',location_id='',location_ns='',created='2010-05-10 10:20:57',modified='2010-10-14 22:24:56']
+2010-10-14 16:56:58 LOG_DEBUG: [192.168.1.100:4567.1207b2e6 GET /sn/himmel123/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-14 16:58:13 LOG_DEBUG: [192.168.1.100:4585.9344e126 GET /sn/himmel123/userhome] action.php - User error '400' on 'userhome': 无法访问此用户的个人页面
+2010-10-14 17:23:20 LOG_DEBUG: [192.168.1.100:4555.a9d85805 POST /sn/main/login] action.php - User error '400' on 'login': 已登录。
+2010-10-14 18:39:07 LOG_DEBUG: [192.168.1.100:4567.aff2d960 GET /sn/himmel/] action.php - User error '404' on 'showstream': 用户不存在
+2010-10-14 18:56:49 LOG_ERR: [192.168.1.100:380.c20e5bcc POST /sn/settings/avatar] PEAR error: DB Error: already exists
+2010-10-14 18:56:49 LOG_ERR: [192.168.1.100:380.c20e5bcc POST /sn/settings/avatar] ServerErrorAction: 500 数据库维护中,请稍后再访问
+2010-10-15 10:24:43 LOG_DEBUG: [192.168.1.100:4563.cdc4dd94 GET /sn/himmel/] action.php - User error '404' on 'showstream': 用户不存在

@@ -1,0 +1,140 @@
+aaa
+67eeaa9 Pull localization updates from 0.9.x branch
+940a8c2 Updated README to include one-liner about fixed installer in the noteable changes section
+c2f620e Update release date
+df44626 Revert "Update PEAR::Mail to 1.2.0 release; fixes deprecation warnings running under PHP 5.3."
+9fd02a4 Update PEAR::Mail to 1.2.0 release; fixes deprecation warnings running under PHP 5.3.
+a39efbd Update XMPPHP to last upstream release (r77), includes an XML quoting fix.
+ecfe6b8 Update codename in common.php
+a5761dd Update release notes and version number for 0.9.2
+ae29865 Pull localization updates from 0.9.x
+cb5d6d5 Fix charset setting for plugin localizations; default setting was blanking out non-ASCII chars. Needed for eg Bulgarian translation of Facebook plugin, was previously showing all as ???s. Now works yay!
+f5c82d9 add rsd to the list of login actions
+8fd0059 Test cases and fixes for Atom and RSS content decoding.
+9c8052e Rerun feed discovery and update the feed, salmon, and hub for the given OStatus remote profile. Restarts subscription fresh as well.
+4beaba9 Ticket #93: pretty up the auto-submit for OpenID logins a bit.
+0f975f4 Fix to regression in last commit; wrong field name for homepage blacklist
+390a2a8 Fix for Blacklist plugin: was saving an empty entry if blacklist was empty, which would match *all* possible nickname registrations, preventing all registration on mozilla.status.net. Now saving only non-empty lines, and only matching non-empty lines so we don't fail if we still have a bogus entry.
+67b8b13 Fix keys / keyTypes for Blacklist plugin - was spewing notices for undefined array indexes when saving blacklist entries from admin panel
+7bdea95 Fix to make blowing of replies stream cache more consistent when receiving replies. (Was being done at mail notify time instead of at save time for local replies; now moved to reply save time internally so it can't get forgotten)
+fd9d520 OStatus: CLI script to force a renewal on the given PuSH subscription. May help when we get out of sync with the hub.
+a129c45 Fix exceptions with bad gravatar URLs
+e28214b fix reference error in RSSCloud plugin
+1d94b08 Revert "Update release notes and version number for 0.9.2"
+98f0d97 Update release notes and version number for 0.9.2
+c48caa8 Fix email notifications for @-replies that come via OStatus.
+0e1be7e Ticket #2291: fix typo in SMS doc
+32918bb Test for and use mysqli in installer, since that's what we use later, rather than mysql.
+acea534 Disable the send-notice form at the top of the page OStatus subscription confirmation page to work around bugs in Cloudy theme.
+e547a2f Fix ticket #2289: registration links were showing in top nav bar, login page message when site set to invite-only or closed registration, when the 'register' action can't be used.
+4f0672a Allow setconfig.php to Print Entire Config
+efcdfab Ticket #2205: pass geo locations over Twitter bridge (will only be used if enabled on the Twitter side)
+a21a172 Fix for "#foo !foo" in same notice failing during save, causing failout before distribution. Move saveGroups after saveTags when saving notices; groups may save additional tags, so need to be moved after so the check for duplicates actually works.
+d445b97 move comment to correct place
+9463287 showplugins.php: dump list of activated plugins and their settings on this site
+a05e674 showplugins.php: dump list of activated plugins and their settings on this site
+71c828d Allow blocking someone who's not currently subscribed to you (prevents seeing @-replies from them, or them subbing to you in future)
+5d96cf2 catch UserNoProfileException and continue
+166c1ed Fix inconsistencies in clientError() messages * use correct punctuation * single quotes when replace was possible * wording updated when needed
+5c6c9b6 Update message formatting for serverError to use a starting capital and a leading period.
+58d5d7b Clean up badly formatted strings in OembedAction
+6fb60fb Fix for conversation check in @-reply notification email; i18n cleanup on mail messages: fixed some bad gettext usage, added trans doc comments.
+b47fc9c Fix for strip_geo's decaching; also added --all option to run over all notices by given profile to help in fixing up cache inconsistencies
+4e3fad4 fix attributes on homepage output
+9cb0dab Run block checks on remote OStatus replies
+80bd77c Run block checks on remote OStatus replies
+756dd15 i18n cleanup: fix bad string breakdown in license agreement checkbox on registration form. Note that much of that form is duplicated several times for Twitter, Facebook, and OpenID registrations -- these need to be refactored to avoid having multiple out-of-sync copies of code and messages.
+b76b0d3 Cleanup bad i18n format for page title on bookmarklet posting window
+db497e8 Initial version of everplay's RTL direction detector plugin, sets initial direction correctly for primarily RTL notices within an LTR site layout.
+41062d3 Fix localization for license notice in page footer (for ticket #2274: i18n cleanup)
+4a028d5 Fix localization for license notice in page footer (for ticket #2274: i18n cleanup)
+7baf671 Avoid E_NOTICE spew when listing group members who aren't admins
+a93d0dc Undefined Variable in foafgroup.php
+2be04e2 Avoid E_NOTICE spew when listing group members who aren't admins
+eefde36 Undefined Variable in foafgroup.php
+5dbaaed Maintain 'page' parameter for block from subscribers list, block & make-admin from group members list.
+05e373d scripts/strip_geo.php to remove geodata from notices by a given user/profile.
+6274c39 In single-user mode, link #hashtags to the user's tagged stream rather than the global tag action, which isn't registered. Previously they would end up pointing to the home URL.
+4b2dfab scripts/strip_geo.php to remove geodata from notices by a given user/profile.
+0e09279 Revert "scripts/strip_geo.php to remove geodata from notices by a given user/profile."
+ab20e75 scripts/strip_geo.php to remove geodata from notices by a given user/profile.
+88678ea In single-user mode, link #hashtags to the user's tagged stream rather than the global tag action, which isn't registered. Previously they would end up pointing to the home URL.
+ecd3138 Fix for error during handling of HTTP error response case in Geonames lookups
+8a02cad drop onStartShowHeadElements handler from MobileProfile; just duplicated the original code path, and after removing the bogus notice-spewing code it was running those things twice.
+f255b36 Refactor installer into base class plus web and CLI installers. scripts/install_cli.php is a bit experimental at present but works.
+aceaeb9 fixup_blocks.php: finds any stray subscriptions in violation of blocks, and removes them.
+82326a3 show PEAR_Error message, not the object
+f09e81f Made it so that settag would list tags.
+d352e5f Handle attempt to subscribe a local user via their remote webfinger reference more gracefully. The ensure* family of functions will now return an OStatusShadowException in this case, which gives us a pleasant error message instead of a giant exception backtrace when you do 'sub somebody@this.local.server'.
+878461d Handle attempt to subscribe a local user via their remote webfinger reference more gracefully. The ensure* family of functions will now return an OStatusShadowException in this case, which gives us a pleasant error message instead of a giant exception backtrace when you do 'sub somebody@this.local.server'.
+cda03ff Set a default 2-second timeout on Geonames web service lookups. After a failure, further lookups in the same process will be skipped for the next 60 seconds (also configurable). Makes a Geonames outage much less disruptive to site operations.
+7c3b320 Allow Meteor plugin to be configurable via configuration database or file. As there's no admin control panel yet, this is mainly meant for batch administration and using setconfig.php
+3172b50 Add a User-Agent fragment blacklist to MobileProfile: sticking iPad on the regular theme, which works better on its larger screen (was tripped on 'mobile' in the UA though we had no explicit check for 'ipad' previously)
+edea825 Comment out unreachable code spewing notices due to use of undefined variables in MobileProfile. This needs some cleanup...
+3ac3bc3 Some localization cleanup and doc to aid in customization: * added locale/en/LC_MESSAGES/statusnet.po to make it easier to start customizing English texts * added notes to locale/README about customizing and how to disable languages you haven't customized * renamed PO templates from *.po to *.pot to match general conventions and reduce confusion for people trying to find which file they're supposed to edit
+dbaa93d Clean up and clarify output on fix-shadow.php
+295b2d0 Clean up and clarify output on fix-shadow.php
+2a48901 use nofollow for subscribers list
+16827a6 use nofollow for group members list
+95229bc use homepage link attributes method for peopletaglist
+98905de make profilelist homepage link attributes overrideable
+2882e40 nofollow for peopletag pages
+96761c1 override linkAttributes() method for groupmembersminilist
+2e51d33 override linkAttributes() method for subscribersminilist
+dd053aa override linkAttributes() method for profileminilist
+19401f6 add linkAttributes() method for profilelist
+a313aea lib/default.php has nofollow group
+7fb8d0c breakout subscribers minilist
+8d335f0 balance brackets on profileminilist
+5414096 add an event for subscribers minilist
+ffc1ac0 add an event for group members minilist
+d4940fe Ticket #2272: Block confirmation form should let enter trigger the 'yes' button Setting focus into the form to make it easier to submit by keyboard. Enter or space will now trigger the button right off without having to mouse around to find the button after we've clicked into the conf form, and keyboarders can also get to the 'no' button more easily.
+f2b60b7 Ticket #2272: Block confirmation form should let enter trigger the 'yes' button Setting focus into the form to make it easier to submit by keyboard. Enter or space will now trigger the button right off without having to mouse around to find the button after we've clicked into the conf form, and keyboarders can also get to the 'no' button more easily.
+d3e4779 Ticket #2273: Fix bookmarklet with URls with special characters
+a29c19b Ticket #2273: Fix bookmarklet with URls with special characters
+ec24f28 Don't save duplicate messages into a user's packed inbox. We've already got the packed box loaded at insert time, so we can simply unpack it and check before doing the update query. Should help with dupes that come in when inbox distrib jobs die and get restarted, etc.
+61394aa Don't save duplicate messages into a user's packed inbox. We've already got the packed box loaded at insert time, so we can simply unpack it and check before doing the update query. Should help with dupes that come in when inbox distrib jobs die and get restarted, etc.
+6cd0637 Ticket 2271: extra whitespace in underlined link for username in notice lists
+b10ff03 Ticket 2271: extra whitespace in underlined link for username in notice lists
+ac9fda4 ProfileMiniListItem does same events as ProfileListItem
+f1c01f9 Temporary hack until notice_profile_id_idx is updated to (profile_id, id) instead of (profile_id, created, id). It's been falling back to PRIMARY instead, which is really very inefficient for a profile that hasn't posted in a few months. Even though forcing the index will cause a filesort, it's usually going to be better. Even for large profiles it seems much faster than the badly-indexed query.
+9f2cfd2 Temporary hack until notice_profile_id_idx is updated to (profile_id, id) instead of (profile_id, created, id). It's been falling back to PRIMARY instead, which is really very inefficient for a profile that hasn't posted in a few months. Even though forcing the index will cause a filesort, it's usually going to be better. Even for large profiles it seems much faster than the badly-indexed query.
+d60c1f1 Revert "Revert "if user allows location sharing but turned off browser location use profile location""
+9efe539 Revert "Revert "don't insert the same notice twice into an inbox""
+a09b27f Revert "don't insert the same notice twice into an inbox"
+8b24ad8 Revert "if user allows location sharing but turned off browser location use profile location"
+4b80ce0 if user allows location sharing but turned off browser location use profile location
+650074c don't insert the same notice twice into an inbox
+d3f9958 use Subscription::cancel() to cancel all subscriptions on block
+c1c7fee do complete unsubscribe process when deleting a user
+0841fa7 Ticket #1281: JID validation now more or less follows spec instead of calling e-mail validator
+f19b95d Shared cache key option for Geonames plugin, lets multi-instance sites share their cached geoname lookups.
+bfb2ac4 Shared cache key option for Geonames plugin, lets multi-instance sites share their cached geoname lookups.
+5db01b3 Update call for renamed OStatus functions -- installer now no longer fails with a PHP fatal error when trying to set up the subscription to update@status.net.
+804182e Some fixes to make the twitterstatusfetcher behave better in a multi-site configuration
+f694f25 Fix for error output on invalid user ID to api groups list
+37b41d2 Fix for error output on invalid user ID to api groups list
+034e88b Fixes for apigrouplist - notice spew from undefined var, notice spew from missing escape in sprintf format
+0284e13 Quick fixes for grouplistall: * respect count instead of listing all groups * respect page parameter * don't spew notice on undefined $id * don't spew notice on undefined $group->homepage_url (dropped the element since there's nothing to go in it)
+0fa894b Fixes for apigrouplist - notice spew from undefined var, notice spew from missing escape in sprintf format
+ca897ef Quick fixes for grouplistall: * respect count instead of listing all groups * respect page parameter * don't spew notice on undefined $id * don't spew notice on undefined $group->homepage_url (dropped the element since there's nothing to go in it)
+d38ce90 Fix to profile location in FOAF output: longitude was repeating the latitude by mistake
+17f1ea7 Fix to profile location in FOAF output: longitude was repeating the latitude by mistake
+6046a6c Include meta charset header in saved HTML file for long OStatus messages; without, DOMDocument::loadHTML assumed Latin-1 instead of UTF-8.
+990bbea Include meta charset header in saved HTML file for long OStatus messages; without, DOMDocument::loadHTML assumed Latin-1 instead of UTF-8.
+faa14b6 Tweak to Eugene Crosser's patch to make transactions and acks configurable; disabling them gets basic message delivery working under MorbidQ, and may help with RabbitMQ etc.
+bd1363c Make stomp queue manager work with basic servers
+a8d92da Renamed HTTPResponse class to StatusNet_HTTPResponse to avoid conflict with PECL HTTP extension. The class isn't referenced by name by any other code I can see so this should have no side effects.
+d44e5ac Add $config['db']['annotate_queries'] option to include caller ID comments into queries. Comment can then be seen in process list, slow query logs on the server, aiding in tracking down unexpected slow queries.
+03f6706 RSSCloudPlugin's onRouterInitialized() should expect pass by value instead of reference
+bf468e2 Remove debug line that crept into a commit a while back, breaking realtime when Firebug wasn't present
+482faf6 don't try to get to database at initialize time
+642adc3 add an option to run a command as the site owner
+65766a0 continue deleting even if user profile record is missing
+8fc390e Some fixes to make the twitterstatusfetcher behave better in a multi-site configuration
+f609d49 Really make sure we return 'true' and 'false' strings for boolean vals in api/statusnet/config.:format.
+a9b130f Revert "Make sure we return 'true' and 'false' strings for boolean vals in api/statusnet/config.:format"
+419c38c Make sure we return 'true' and 'false' strings for boolean vals in api/statusnet/config.:format
+379df1c Return an http auth error, when a client sends in an invalid auth user, even when http auth is not required.
+c905d7e Drop debug statements on every regex match from Blacklist plugin; filling the logs a little faster than ops likes. :)
+c6c4510 move base64_url_(encode|decode) to static functions in Magicsig
