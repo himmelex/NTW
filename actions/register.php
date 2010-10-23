@@ -1,28 +1,8 @@
 <?php
-/**
- * Register a new user account
- *
- * PHP version 5
- *
- * @category  Register
- * @package   Dwork
- * @author    Himmel
- * @todo      Blacklist for router!
- */
-
 if (!defined('NEWTYPE') && !defined('DWORKS')) {
     exit(1);
 }
 
-/**
- * An action for registering a new user account
- *
- * @category Login
- * @package  StatusNet
- * @author   Evan Prodromou <evan@status.net>
- * @license  http://www.fsf.org/licensing/licenses/agpl-3.0.html GNU Affero General Public License version 3.0
- * @link     http://status.net/
- */
 
 class RegisterAction extends Action
 {

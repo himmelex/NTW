@@ -5,12 +5,7 @@ file/*
 local/*
 image/*
 _darcs/*
-logs/*
-config.php
-.htaccess
-httpd.conf
 *.tmproj
-dataobject.ini
 *~
 *.bak
 *.orig
@@ -21,8 +16,4 @@ dataobject.ini
 .project
 .settings
 TODO.rym
-config-*.php
-good-config.php
-lac08.log
-php.log
 .DS_Store
